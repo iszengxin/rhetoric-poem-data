@@ -1,7 +1,10 @@
 ## 数据说明
+* raw下poems.txt是收集从唐到清的绝句和律诗，sentences.txt是以句号分句形成的句对
 * manually下包含人工标注和收集的比喻、拟人、夸张句对数据
 * automatically下包含有词句规则提取的比喻、拟人、夸张句对数据
-* 唐诗三百首可从http://www.shiku.org/shiku/gs/tangdai.htm 获取，比较全的中文诗歌数据可从https://github.com/yaonphy/PoetryLibrary 中获取
+
+原始的数据，唐诗三百首可从http://www.shiku.org/shiku/gs/tangdai.htm 获取，比较全的中文诗歌数据可从https://github.com/yaonphy/PoetryLibrary 中获取
+
 ## 词句规则
 每类修辞都有一些明显的关键词或语言模式，比如如果诗句中出现 ”如(似)雪(烟画丝) 月似钩 月作钩“ 等关键词就可以认为是比喻，这些特征可以写成规则用正则表达式来提取，正则表达式如下：
 *  比喻
