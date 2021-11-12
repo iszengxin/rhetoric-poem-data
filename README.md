@@ -23,6 +23,9 @@ reg = "(无垠|石烂|海枯|抵万金|满城|星垂|天际流|踪灭|断绝|海
 Note：规则提取的方式会引入一些噪声，可以在此基础上做二次筛选
 
 ## 基于BERT的修辞分类器
+使用上述得到的监督数据在BERT上微调得到修辞分类器，然后对其它的数据进行修辞分类，**但注意，由于训练数据（人工标注&规则提取）和预测数据（剩余）的数据集分布不一致，因此预测的结果会包含噪声，最好再进行一些规则筛选**  
+
+实现工具：  
 基于BERT的文本分类器： https://github.com/zhanlaoban/Transformers_for_Text_Classification ，开箱即用，非常方便  
 古诗词预训练模型下载：https://github.com/THUNLP-AIPoet/BERT-CCPoem   
 其它相关资源 https://github.com/Morizeyao/GPT2-Chinese
