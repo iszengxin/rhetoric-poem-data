@@ -27,7 +27,7 @@ Note：规则提取的方式会引入一些噪声，可以在此基础上做二�
 
 实现工具：  
 基于BERT的文本分类器： https://github.com/zhanlaoban/Transformers_for_Text_Classification ，开箱即用，非常方便  
-古诗词预训练模型下载：https://github.com/THUNLP-AIPoet/BERT-CCPoem   
+基于BERT的古诗词预训练模型下载：https://github.com/THUNLP-AIPoet/BERT-CCPoem   
 其它相关资源 https://github.com/Morizeyao/GPT2-Chinese
 
 ## 联系作者
